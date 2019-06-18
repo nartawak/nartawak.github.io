@@ -13,6 +13,7 @@ before_script:
   - flutter doctor
   - flutter pub global activate webdev
 script:
+  - pub get
   - webdev build -r
 deploy:
   provider: pages
